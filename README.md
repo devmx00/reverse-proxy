@@ -4,9 +4,9 @@ A simple application that demostrate the use of a reverse proxy.
 
 ### Getting started
 
-Ensure docker is installed and docker daemon running before proceeding with the following steps.
+Ensure docker is installed and docker daemon is running before proceeding with the following steps.
 
-**1. Run**
+**1. Start application**
 
     docker compose up
 
