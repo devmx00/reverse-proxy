@@ -1,0 +1,14 @@
+services:
+  reverse-proxy:
+    restart: always
+    depends_on:
+      - nodeapp
+    build:
+      context: ./reverse-proxy
+    ports:
+      - 80:80
+  nodeapp:
+    build:
+      context: ./app
+    ports:
+      - 4000:4000
