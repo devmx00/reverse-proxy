@@ -6,21 +6,21 @@ settings:
 
 dependencies:
   express:
-    specifier: ^4.18.2
+    specifier: 4.18.2
     version: 4.18.2
 
 devDependencies:
   '@types/express':
-    specifier: ^4.17.20
+    specifier: 4.17.20
     version: 4.17.20
   '@types/node':
-    specifier: ^20.8.10
+    specifier: 20.8.10
     version: 20.8.10
   ts-node:
-    specifier: ^10.9.1
+    specifier: 10.9.1
     version: 10.9.1(@types/node@20.8.10)(typescript@5.2.2)
   typescript:
-    specifier: ^5.2.2
+    specifier: 5.2.2
     version: 5.2.2
 
 packages:
